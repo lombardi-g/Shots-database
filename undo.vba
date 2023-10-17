@@ -3,7 +3,7 @@ Sub UndoLastInsertion()
     Dim wsCentral As Worksheet
     Dim wsDB_Afavor As Worksheet
     Dim wsDB_Sofr As Worksheet
-    Dim undoMessage As String
+    Dim emptyMessage As String
 
     Set wsCentral = ThisWorkbook.Sheets("Central-de-comando")
     
@@ -11,10 +11,11 @@ Sub UndoLastInsertion()
     
     Set wsDB_Sofr = ThisWorkbook.Sheets("DB_Fin_Sofr")
     
+    emptyMessage = "Último lançamento já foi desfeito"
+    
     ' Check if values in A9:I9 are empty (indicating previous undo)
     If WorksheetFunction.CountA(wsCentral.Range("A9:I9")) = 0 Then
-        undoMessage = "Last insertion has already been undone."
-        MsgBox undoMessage
+        MsgBox emptyMessage
         Exit Sub
     End If
     
@@ -29,8 +30,5 @@ Sub UndoLastInsertion()
     
     ' Clear values in A9:I9
     wsCentral.Range("A9:I9").ClearContents
-    
-    ' Show a message indicating successful undo
-    undoMessage = "Last insertion has been undone."
-    MsgBox undoMessage
+  
 End Sub
