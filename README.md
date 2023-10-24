@@ -1,6 +1,6 @@
 <!--![Figueirense Futebol Clube](https://iconape.com/wp-content/files/xj/324379/png/Figueirense_Futebol_Clube-logo.png)-->
 <p align="center">
-  <img alt="FFC" height="180" src="https://iconape.com/wp-content/files/xj/324379/png/Figueirense_Futebol_Clube-logo.png">
+  <img alt="FFC" height="180" src="Figueirense.png">
 </p>
 
 # Shots database for Figueirense youth categories
