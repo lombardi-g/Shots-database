@@ -1,6 +1,6 @@
 <p align="center">
-  <a href = "https://raw.githubusercontent.com/lombardi-g/FFC-database/main/Figueirense.png">
-  <img alt="FFC" height="180" src="Figueirense.png">
+  <a href = "https://figueirense.com.br/">
+  <img alt="FFC" height="180" src="https://raw.githubusercontent.com/lombardi-g/FFC-database/main/Figueirense.png">
   </a>
 </p>
 
