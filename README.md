@@ -14,3 +14,4 @@ The goal of this project is to study and analyze how the youth categories of Fig
 By building a robust enough database, it becomes possible to examine performance metrics and patterns.
 
 ![VBA](https://img.shields.io/badge/VBA-217346?&style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
